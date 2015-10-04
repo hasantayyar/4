@@ -1,0 +1,17 @@
+digraph wiki {
+
+U [label="User Accounts"]
+A [label="Authorship Tracking"]
+H [label="Page History"]
+E [label="Text Editor"]
+M [label="Markup Format"]
+
+F [label="Markup-to-HTML"]
+O [label="Web Page (CSS etc.)"]
+
+E->M->H
+U->A->H
+
+H->F->O
+
+}
