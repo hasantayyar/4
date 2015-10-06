@@ -131,7 +131,7 @@ In our quest to get editable standalone pages, we got federation for free. One p
 
 This is fantastic because it allows separation between content creation and curation. Writers can keep their writing under their own control. They can experiment with their pages and be as daring as they want in trying to escape local maxima. For subjective content like tutorials this is an important freedom.
 
-Curators can search anywhere for gems to include in their wikis. Disagreements become less serious since the stakes are reduced (a page being deleted from a particular wiki is much less serious than being removed from the web altogether). Federated systems aren't totally harmonious, but they're a big improvement over the rats-in-the-box relationship of authors in a centralized project.
+Curators can search anywhere for gems to include in their wikis. Disagreements become less serious since the stakes are reduced (a page being deleted from a particular wiki is much less serious than being removed from the web altogether). Federated systems aren't totally harmonious, but they're a big improvement over the rats-in-a-box relationship of authors in a centralized project.
 
 ## Problems
 
@@ -143,7 +143,7 @@ Curators can search anywhere for gems to include in their wikis. Disagreements b
 
 #### With Federated-Wikis
 
-+ Intra-wiki link handling becomes harder. If links are absolute then users will get bumped around wikis a lot. If links are relative then the page referenced by the link might not be included in a particular wiki.
++ Intra-wiki link handling becomes harder. If links are absolute then users will get bumped around wikis a lot. If links are relative then the page referenced by a link might not be included in a particular wiki.
 
 	The magnet link-like scheme above may help, but it doesn't provide a complete solution. Users expect links to change their browser's _location_ as well as its _contents_.
 
