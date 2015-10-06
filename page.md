@@ -3,7 +3,7 @@ title: Page-Forkable Wikis
 published: 2015-10-03 10:30:00
 ---
 
-![](./4/lego-50-percent.jpg "Lego blocks (Wikimedia Commons)")
+![](./lego-50-percent.jpg "Lego blocks (Wikimedia Commons)")
 
 ## Intro
 
@@ -38,7 +38,7 @@ This is very possible. Federated services like email don't require a user accoun
 
 Bundling a text editor with a wiki installation isn't great either. Ideally our wiki could just publish the set of markup formats it supports. The user's machine could then use that information to select an editor. It's sad that wikis have to know about this stuff:
 
-![](./4/wikipedia-editor.png "Screenshot of Wikipedia's Text Editor")
+![](./wikipedia-editor.png "Screenshot of Wikipedia's Text Editor")
 
 But both of these decisions make sense in the context of accessibility. Accessibility is one of the top goals of the traditional wiki. It's meant to be useful without installing any software whatsoever. Seemingly it succeeds.
 
@@ -48,9 +48,9 @@ We'll come back to accessibility later.
 
 So we have a great spec for our markup. What's the spec for a whole page? Not just the current markup, but also history and contributors?
 
-Again, here's MediaWiki's: [export-0.6.xsd](./4/export-0.6.xsd).
+Again, here's MediaWiki's: [export-0.6.xsd](./export-0.6.xsd).
 
-And here's [an example page](./4/1910-goodall-cup-finals-page.xml).
+And here's [an example page](./1910-goodall-cup-finals-page.xml).
 
 First thought: it's good they have a spec.
 
@@ -113,17 +113,17 @@ Since the page definition is so off-the-shelf we can immediately start doing int
 
 Below is the traditional wiki:
 
-![](./4/wiki-traditional.svg "Traditional Wiki")
+![](./wiki-traditional.svg "Traditional Wiki")
 
 The prototype implementation breaks off the page writing process entirely, outsourcing it to a git hosting service:
 
-![](./4/wiki-input.svg "Outsource Page Editing")
+![](./wiki-input.svg "Outsource Page Editing")
 
 In detail, authorship tracking and page history are handled by git.<sup><a href="#fn2" id="ref2">[2]</a></sup> Good markup formats already exist. The text editor is provided by the user, and user accounts are provided by the git hosting service.
 
 This doesn't leave much wiki left to write. Information is only flowing in one direction so it uses a static site generator:
 
-![](./4/wiki-output.svg "Prototype Wiki")
+![](./wiki-output.svg "Prototype Wiki")
 
 Something interesting emerges from this.
 
