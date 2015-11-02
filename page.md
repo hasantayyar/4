@@ -1,8 +1,3 @@
----
-title: Page-Forkable Wikis
-published: 2015-10-03 10:30:00
----
-
 ![](./lego-50-percent.jpg "Lego blocks (Wikimedia Commons)")
 
 ## Intro
