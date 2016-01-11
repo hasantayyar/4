@@ -108,17 +108,17 @@ Since the page definition is so off-the-shelf we can immediately start doing int
 
 Below is the traditional wiki:
 
-![](./wiki-traditional.svg "Traditional Wiki")
+![](https://rawgithub.com/housejeffries-pages/4/master/wiki-traditional.svg "Traditional Wiki")
 
 The prototype implementation breaks off the page writing process entirely, outsourcing it to a git hosting service:
 
-![](./wiki-input.svg "Outsource Page Editing")
+![](https://rawgithub.com/housejeffries-pages/4/master/wiki-input.svg "Outsource Page Editing")
 
 In detail, authorship tracking and page history are handled by git.<sup><a href="#fn2" id="ref2">[2]</a></sup> Good markup formats already exist. The text editor is provided by the user, and user accounts are provided by the git hosting service.
 
 This doesn't leave much wiki left to write. Information is only flowing in one direction so it uses a static site generator:
 
-![](./wiki-output.svg "Prototype Wiki")
+![](https://rawgithub.com/housejeffries-pages/4/master/wiki-output.svg "Prototype Wiki")
 
 Something interesting emerges from this.
 
